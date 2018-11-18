@@ -44,7 +44,6 @@ if (!empty($_POST)) {
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="dist/css/vendor/bootstrap.min.css" rel="stylesheet">
     <link href="dist/css/flat-ui.css" rel="stylesheet">
-    <link href="docs/assets/css/demo.css" rel="stylesheet">
     <link rel="shortcut icon" href="dist/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!--[if lt IE 9]>
