@@ -64,7 +64,7 @@ if (!empty($_POST)) {
               <?php for ($i = 1; $i <= $numButtons; $i++): ?>
                 <div class="form-check">
                   <label for="chk<?=sprintf('%02d', $i);?>">Switch <?=sprintf('%02d', $i);?></label>
-                  <input type="checkbox" checked="<?=$dataCopy[$i] ? 'checked' : '';?>" name="ch<?=sprintf('%02d', $i);?>" data-toggle="switch" id="chk<?=sprintf('%02d', $i);?>" data-on-text="<span class='fui-check'></span>" data-off-text="<span class='fui-cross'></span>">
+                  <input type="checkbox" <?=$dataCopy[$i] ? 'checked=""' : '';?> name="ch<?=sprintf('%02d', $i);?>" data-toggle="switch" id="chk<?=sprintf('%02d', $i);?>" data-on-text="<span class='fui-check'></span>" data-off-text="<span class='fui-cross'></span>">
                 </div>
               <?php endfor; ?>
               <button type="submit" class="btn btn-lg btn-primary">Submit</button>
